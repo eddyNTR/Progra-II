@@ -1,25 +1,20 @@
-# main.py
-from vehiculos.motocicleta import Motocicleta
-from vehiculos.automovil import Automovil
-from vehiculos.autobus import Autobus
-from vehiculos.vehiculo import Vehiculo
+from platos.plato import Plato
+from platos.pique import Pique
+from platos.charque import Charque
+from platos.chicharron import Chicharon
 
-# Creando objetos de cada clase derivada
-vehiculo = Vehiculo("General Motors", "Modelo X")
-automovil = Automovil("Toyota", "Corolla", "Gasolina")
-motocicleta = Motocicleta("Yamaha", "YZF-R3", 321)
-autobus = Autobus("Mercedes-Benz", "Sprinter", 40)
+pique = Pique("Pique macho", 80, "grande")
+charque = Charque("Charquekan", 50, "con extra queso")
+chicharon = Chicharon("Chicharron", 60, "si")
 
-
-# Mostrando información y usando métodos
-vehiculo.mostrar_informacion()
-vehiculo.encender()
+pique.mostrar_info()
+pique.entregar_plato()
+pique.recojer_plato()
 print(" ")
-automovil.mostrar_informacion()
-automovil.conducir()
-print(" ")
-motocicleta.mostrar_informacion()
-motocicleta.conducir()
-print(" ")
-autobus.mostrar_informacion()
-autobus.conducir()
+charque.mostrar_info()
+charque.entregar_plato()
+charque.recojer_plato()
+print("")
+chicharon.mostrar_info()
+chicharon.entregar_plato()
+chicharon.recojer_plato()
