@@ -5,8 +5,8 @@ class Fuego(Pokemon):
         super().__init__(num_pokedex, nombrePokemon, pesoPokemon, sexo, temporadaQueAparece, tipo)
 
     def informacion(self):
-        print(f"pokemon: {self.nombrePokemon},#pokedex: {self.num_pokedex} tipo: {self.tipo}, temporada: {self.temporadaQueAparece}, sexo: {self.sexo}, peso: {self.pesoPokemon}")
-
+        super().informacion()
+        
     def atacarPlacaje(self):
         super().atacarPlacaje()
 

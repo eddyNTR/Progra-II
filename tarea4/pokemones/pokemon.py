@@ -20,7 +20,7 @@ class Pokemon():
         self.tipo = tipo
 
     def informacion(self):
-        print(f"pokemon: {self.nombrePokemon},#pokedex: {self.num_pokedex} tipo: {self.tipo}, temporada: {self.temporadaQueAparece}, sexo: {self.sexo}, peso: {self.pesoPokemon}")
+        print(f"Pokemon: {self.nombrePokemon}\nNumero de pokedex: {self.num_pokedex}\nTipo: {self.tipo}\nTemporada de aparición: {self.temporadaQueAparece}\nSexo: {self.sexo}\nPeso: {self.pesoPokemon}")
 
     def atacarPlacaje(self):
         print(f"Soy {self.nombrePokemon} y estoy atacando con Placaje")

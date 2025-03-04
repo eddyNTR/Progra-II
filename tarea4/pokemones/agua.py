@@ -14,7 +14,7 @@ class Agua(Pokemon):
         super().atacarMordisco()
     
     def informacion(self):
-        print(f"pokemon: {self.nombrePokemon},#pokedex: {self.num_pokedex} tipo: {self.tipo}, temporada: {self.temporadaQueAparece}, sexo: {self.sexo}, peso: {self.pesoPokemon}")
+        super().informacion()
 
     def atacarHidrobomba(self):
         print(f"Soy {self.nombrePokemon} y estoy atacando con Hidrobomba")
