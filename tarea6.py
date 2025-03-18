@@ -58,7 +58,7 @@ class Empleado():
         print(f"Empleado {self.__nombre} ha sido eliminado")
         
     
-empleado = Empleado("David Mita", 23, 5000)
+empleado = Empleado("Pedro Sanchez", 23, 5000)
 print(empleado)
 print(f"Aportes del asegurado {empleado.nombre}, son {empleado.aporter_asegurado()} Bs.")
 print(f"Liquido pagable del empleado {empleado.nombre}, es {empleado.liquido_pagable()} Bs.")
